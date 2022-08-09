@@ -93,7 +93,7 @@ if __name__ == "__main__":
     driver = webdriver.Edge("path to your web browser driver .exe")
     driver.maximize_window()
     open("path to your links.txt" , 'w').close()#Change the path according to you
-    file1 = (open("Path to where a temperary file named 'MHCET_Docs_names.txt' be saved" , 'r'))#Change the path according to you
+    file1 = (open("Path to where a temperary file named 'MHCET_Docs_names.txt' will be saved" , 'r'))#Change the path according to you
     file2 = (open("path to your links.txt" , 'r'))#Change the path according to you
     try:
         obj = scraper(driver=driver, file1= file1 , file2= file2)
